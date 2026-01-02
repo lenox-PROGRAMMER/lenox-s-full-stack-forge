@@ -81,7 +81,7 @@ const Contact = () => {
                     <Input 
                       id="email"
                       type="email"
-                      placeholder="you@example.com"
+                      placeholder="lenoxowino2022@gmail.com"
                       className="bg-secondary border-border focus:border-primary"
                     />
                   </div>
