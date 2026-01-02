@@ -9,7 +9,7 @@ const projects = [
     tags: ["React", "Node.js", "PostgreSQL", "REST API"],
     color: "from-blue-500/20 to-cyan-500/20",
     github: "https://github.com/lenox/school-management-system",
-    demo: "https://school.lenox.dev"
+    demo: "https://github.com/lenox-PROGRAMMER/school-system-os"
   },
   {
     icon: Users,
@@ -18,7 +18,7 @@ const projects = [
     tags: ["Node.js", "Express", "MongoDB", "JWT"],
     color: "from-green-500/20 to-emerald-500/20",
     github: "https://github.com/lenox/workers-management-system",
-    demo: "https://workers.lenox.dev"
+    demo: "https://github.com/lenox-PROGRAMMER/workers-management-system"
   },
   {
     icon: BarChart3,
@@ -27,7 +27,7 @@ const projects = [
     tags: ["React", "TypeScript", "Supabase", "Charts"],
     color: "from-violet-500/20 to-purple-500/20",
     github: "https://github.com/lenox/niim-project-tracker",
-    demo: "https://niim.lenox.dev"
+    demo: "https://github.com/lenox-PROGRAMMER/NIIMS-PROJECT"
   },
   {
     icon: Wallet,
@@ -36,7 +36,7 @@ const projects = [
     tags: ["React", "Node.js", "PostgreSQL", "PDF Export"],
     color: "from-amber-500/20 to-orange-500/20",
     github: "https://github.com/lenox/expense-tracker",
-    demo: "https://expenses.lenox.dev"
+    demo: "https://github.com/lenox-PROGRAMMER/expense-tracker"
   },
   {
     icon: Contact,
@@ -45,7 +45,7 @@ const projects = [
     tags: ["React", "Firebase", "Material UI", "Search"],
     color: "from-pink-500/20 to-rose-500/20",
     github: "https://github.com/lenox/contact-management-system",
-    demo: "https://contacts.lenox.dev"
+    demo: "https://github.com/lenox-NEWTON/contact_list.py"
   },
   {
     icon: Smartphone,
@@ -54,7 +54,7 @@ const projects = [
     tags: ["React Native", "Node.js", "WebSocket", "Maps"],
     color: "from-teal-500/20 to-cyan-500/20",
     github: "https://github.com/lenox/phone-tracking-app",
-    demo: "https://phones.lenox.dev"
+    demo: "https://github.com/lenox-PROGRAMMER/phone-tracking"
   },
   {
     icon: Gamepad2,
@@ -72,7 +72,7 @@ const projects = [
     tags: ["React", "TypeScript", "CSS", "Math.js"],
     color: "from-slate-500/20 to-gray-500/20",
     github: "https://github.com/lenox/calculator-app",
-    demo: "https://calculator.lenox.dev"
+    demo: "https://github.com/lenox-PROGRAMMER/calc"
   }
 ];
 
