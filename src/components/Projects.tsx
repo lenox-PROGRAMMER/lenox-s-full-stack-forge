@@ -17,7 +17,7 @@ const projects = [
     description: "Robust backend solution for employee records, attendance tracking, and workflow automation.",
     tags: ["Node.js", "Express", "MongoDB", "JWT"],
     color: "from-green-500/20 to-emerald-500/20",
-    github: "https://github.com/lenox/workers-management-system",
+    github: "https://github.com/lenox/lenox-PROGRAMMER/workers-management-system",
     demo: "https://github.com/lenox-PROGRAMMER/workers-management-system"
   },
   {
