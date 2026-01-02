@@ -32,8 +32,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <a href="mailto:hello@lenox.dev" className="text-muted-foreground hover:text-primary transition-colors">
-                    hello@lenox.dev
+                  <a href="mailto:lenoxowino2022@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    lenoxowino2022@gmail.com
                   </a>
                 </div>
               </div>
