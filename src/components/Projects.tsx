@@ -7,56 +7,72 @@ const projects = [
     title: "School Management System",
     description: "End-to-end platform for managing students, teachers, classes, and administration with comprehensive reporting.",
     tags: ["React", "Node.js", "PostgreSQL", "REST API"],
-    color: "from-blue-500/20 to-cyan-500/20"
+    color: "from-blue-500/20 to-cyan-500/20",
+    github: "https://github.com/lenox/school-management-system",
+    demo: "https://school.lenox.dev"
   },
   {
     icon: Users,
     title: "Workers Management System",
     description: "Robust backend solution for employee records, attendance tracking, and workflow automation.",
     tags: ["Node.js", "Express", "MongoDB", "JWT"],
-    color: "from-green-500/20 to-emerald-500/20"
+    color: "from-green-500/20 to-emerald-500/20",
+    github: "https://github.com/lenox/workers-management-system",
+    demo: "https://workers.lenox.dev"
   },
   {
     icon: BarChart3,
     title: "NIIM Project Tracker",
     description: "Tool for tracking project progress, milestones, and deliverables with clear visibility and analytics.",
     tags: ["React", "TypeScript", "Supabase", "Charts"],
-    color: "from-violet-500/20 to-purple-500/20"
+    color: "from-violet-500/20 to-purple-500/20",
+    github: "https://github.com/lenox/niim-project-tracker",
+    demo: "https://niim.lenox.dev"
   },
   {
     icon: Wallet,
     title: "Expense Tracker",
     description: "Application for monitoring personal and organizational expenses with detailed reporting features.",
     tags: ["React", "Node.js", "PostgreSQL", "PDF Export"],
-    color: "from-amber-500/20 to-orange-500/20"
+    color: "from-amber-500/20 to-orange-500/20",
+    github: "https://github.com/lenox/expense-tracker",
+    demo: "https://expenses.lenox.dev"
   },
   {
     icon: Contact,
     title: "Contact Management System",
     description: "Centralized system for storing, organizing, and retrieving contact information efficiently.",
     tags: ["React", "Firebase", "Material UI", "Search"],
-    color: "from-pink-500/20 to-rose-500/20"
+    color: "from-pink-500/20 to-rose-500/20",
+    github: "https://github.com/lenox/contact-management-system",
+    demo: "https://contacts.lenox.dev"
   },
   {
     icon: Smartphone,
     title: "Phone Tracking Application",
     description: "Utility for monitoring and managing mobile devices securely with real-time updates.",
     tags: ["React Native", "Node.js", "WebSocket", "Maps"],
-    color: "from-teal-500/20 to-cyan-500/20"
+    color: "from-teal-500/20 to-cyan-500/20",
+    github: "https://github.com/lenox/phone-tracking-app",
+    demo: "https://phones.lenox.dev"
   },
   {
     icon: Gamepad2,
     title: "Aviator",
     description: "Custom-built solution showcasing creativity and technical depth with engaging gameplay.",
     tags: ["JavaScript", "Canvas API", "Game Logic", "Animation"],
-    color: "from-red-500/20 to-orange-500/20"
+    color: "from-red-500/20 to-orange-500/20",
+    github: "https://github.com/lenox/aviator-game",
+    demo: "https://aviator.lenox.dev"
   },
   {
     icon: Calculator,
     title: "Calculator",
     description: "Lightweight yet functional application demonstrating precision, usability, and clean design.",
     tags: ["React", "TypeScript", "CSS", "Math.js"],
-    color: "from-slate-500/20 to-gray-500/20"
+    color: "from-slate-500/20 to-gray-500/20",
+    github: "https://github.com/lenox/calculator-app",
+    demo: "https://calculator.lenox.dev"
   }
 ];
 
@@ -79,7 +95,7 @@ const Projects = () => {
           
           {/* Projects grid */}
           <div className="grid md:grid-cols-2 gap-6">
-            {projects.map((project, index) => (
+            {projects.map((project) => (
               <div 
                 key={project.title}
                 className="group relative p-6 rounded-xl bg-gradient-card border border-border hover:border-primary/30 transition-all duration-300 shadow-card overflow-hidden"
@@ -94,12 +110,26 @@ const Projects = () => {
                       <project.icon className="w-6 h-6 text-primary" />
                     </div>
                     <div className="flex gap-2">
-                      <a href="#" className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors">
-                        <Github className="w-4 h-4 text-muted-foreground hover:text-foreground" />
-                      </a>
-                      <a href="#" className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors">
-                        <ExternalLink className="w-4 h-4 text-muted-foreground hover:text-foreground" />
-                      </a>
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors"
+                        >
+                          <Github className="w-4 h-4 text-muted-foreground hover:text-foreground" />
+                        </a>
+                      )}
+                      {project.demo && (
+                        <a
+                          href={project.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors"
+                        >
+                          <ExternalLink className="w-4 h-4 text-muted-foreground hover:text-foreground" />
+                        </a>
+                      )}
                     </div>
                   </div>
                   
