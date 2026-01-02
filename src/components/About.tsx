@@ -65,7 +65,7 @@ const About = () => {
               Technologies I Work With
             </h4>
             <div className="flex flex-wrap justify-center gap-3">
-              {['React', 'Node.js', 'TypeScript', 'Python', 'PostgreSQL', 'MongoDB', 'Docker', 'AWS', 'Git', 'REST APIs', 'GraphQL', 'Tailwind CSS'].map((tech) => (
+              {['React', 'Node.js', 'TypeScript', 'Python', 'PostgreSQL', 'express.js', 'Docker', 'AWS', 'Git', 'REST APIs', 'GraphQL', 'Tailwind CSS', 'github', 'express.js', 'next.js'].map((tech) => (
                 <span 
                   key={tech}
                   className="px-4 py-2 rounded-full bg-secondary text-sm font-medium text-secondary-foreground hover:bg-primary/10 hover:text-primary transition-colors cursor-default"
