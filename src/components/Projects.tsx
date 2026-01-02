@@ -6,10 +6,10 @@ const projects = [
     icon: GraduationCap,
     title: "School Management System",
     description: "End-to-end platform for managing students, teachers, classes, and administration with comprehensive reporting.",
-    tags: ["React", "Node.js", "PostgreSQL", "REST API"],
+    tags: ["React", "Node.js", "PostgreSQL", "REST API", "express.js", "next.js"],
     color: "from-blue-500/20 to-cyan-500/20",
-    github: "https://github.com/lenox/school-management-system",
-    demo: "https://github.com/lenox-PROGRAMMER/school-system-os"
+    github: "https://github.com/lenox-PROGRAMMER/school-system-os",
+    demo: "https://school.lenox.dev"
   },
   {
     icon: Users,
@@ -17,8 +17,8 @@ const projects = [
     description: "Robust backend solution for employee records, attendance tracking, and workflow automation.",
     tags: ["Node.js", "Express", "MongoDB", "JWT"],
     color: "from-green-500/20 to-emerald-500/20",
-    github: "https://github.com/lenox/lenox-PROGRAMMER/workers-management-system",
-    demo: "https://github.com/lenox-PROGRAMMER/workers-management-system"
+    github: "https://github.com/lenox/workers-management-system",
+    demo: "https://workers.lenox.dev"
   },
   {
     icon: BarChart3,
@@ -27,7 +27,7 @@ const projects = [
     tags: ["React", "TypeScript", "Supabase", "Charts"],
     color: "from-violet-500/20 to-purple-500/20",
     github: "https://github.com/lenox/niim-project-tracker",
-    demo: "https://github.com/lenox-PROGRAMMER/NIIMS-PROJECT"
+    demo: "https://niim.lenox.dev"
   },
   {
     icon: Wallet,
@@ -36,7 +36,7 @@ const projects = [
     tags: ["React", "Node.js", "PostgreSQL", "PDF Export"],
     color: "from-amber-500/20 to-orange-500/20",
     github: "https://github.com/lenox/expense-tracker",
-    demo: "https://github.com/lenox-PROGRAMMER/expense-tracker"
+    demo: "https://expenses.lenox.dev"
   },
   {
     icon: Contact,
@@ -45,7 +45,7 @@ const projects = [
     tags: ["React", "Firebase", "Material UI", "Search"],
     color: "from-pink-500/20 to-rose-500/20",
     github: "https://github.com/lenox/contact-management-system",
-    demo: "https://github.com/lenox-NEWTON/contact_list.py"
+    demo: "https://contacts.lenox.dev"
   },
   {
     icon: Smartphone,
@@ -54,7 +54,7 @@ const projects = [
     tags: ["React Native", "Node.js", "WebSocket", "Maps"],
     color: "from-teal-500/20 to-cyan-500/20",
     github: "https://github.com/lenox/phone-tracking-app",
-    demo: "https://github.com/lenox-PROGRAMMER/phone-tracking"
+    demo: "https://phones.lenox.dev"
   },
   {
     icon: Gamepad2,
@@ -72,7 +72,7 @@ const projects = [
     tags: ["React", "TypeScript", "CSS", "Math.js"],
     color: "from-slate-500/20 to-gray-500/20",
     github: "https://github.com/lenox/calculator-app",
-    demo: "https://github.com/lenox-PROGRAMMER/calc"
+    demo: "https://calculator.lenox.dev"
   }
 ];
 
