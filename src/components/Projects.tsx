@@ -42,7 +42,7 @@ const projects = [
     icon: Contact,
     title: "Contact Management System",
     description: "Centralized system for storing, organizing, and retrieving contact information efficiently.",
-    tags: ["React", "Firebase", "Material UI", "Search"],
+    tags: ["React", "node.js", "Material UI", "Search"],
     color: "from-pink-500/20 to-rose-500/20",
     github: "https://github.com/lenox/contact-management-system",
     demo: "https://contacts.lenox.dev"
@@ -50,7 +50,7 @@ const projects = [
   {
     icon: Smartphone,
     title: "Phone Tracking Application",
-    description: "Utility for monitoring and managing mobile devices securely with real-time updates.",
+    description: "Utility for monitoring and managing mobile numbers and also to help in identifying the service provider of the number.",
     tags: ["React Native", "Node.js", "WebSocket", "Maps"],
     color: "from-teal-500/20 to-cyan-500/20",
     github: "https://github.com/lenox/phone-tracking-app",
@@ -60,7 +60,7 @@ const projects = [
     icon: Gamepad2,
     title: "Aviator",
     description: "Custom-built solution showcasing creativity and technical depth with engaging gameplay.",
-    tags: ["JavaScript", "Canvas API", "Game Logic", "Animation"],
+    tags: ["JavaScript", "RESTFUL API", "Game Logic", "Animation", "node.js", "python"],
     color: "from-red-500/20 to-orange-500/20",
     github: "https://github.com/lenox/aviator-game",
     demo: "https://aviator.lenox.dev"
